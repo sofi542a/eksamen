@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1500px;
+  margin-inline: auto;
+}
+.main_menu {
+  display: flex; /* 1 */
+  justify-content: space-between; /* 2 */
+  padding: 1rem 2rem; /* 3 */
+}
+
+.main_menu ul {
+  display: flex; /* 5 */
+  list-style: none; /* 6 */
+}
+
+.main_menu li {
+  padding-left: 22%; /* 7 */
+}
+
+/* .tekst_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+} */
+
+.mig_tekst {
+  text-align: center;
+  max-width: 600px;
+  margin-inline: auto;
+  padding: 15px;
+}
+.om_mig {
+  grid-column: 2;
+}
+
+.mig_tekst {
+  grid-template-rows: 2fr;
+  align-self: center;
+  max-width: 65ch;
+
+  font-size: larger;
+}
+.cv {
+  text-align: center;
+  max-width: 600px;
+  margin-inline: auto;
+  padding-bottom: 25px;
+}
+
+.tekst_1 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.tekst_1 {
+  text-align: center;
+  max-width: 600px;
+  margin-inline: auto;
+  margin-top: 30px;
+}
+
+.billede_1 {
+  padding: 10%;
+}
+.billede_2 {
+  padding: 10%;
+}
+.billede_3 {
+  padding: 10%;
+}
+.box {
+  text-align: center;
+  max-width: 600px;
+  margin-inline: auto;
+}
+.box2 {
+  text-align: center;
+  max-width: 600px;
+  margin-inline: auto;
+}
+.box2 li {
+  list-style: none;
+  padding-top: 15px;
+}
+.box li {
+  padding-top: 15px;
+  list-style: none;
+}
+.grid_01_01 {
+  margin-bottom: 40px;
+}
+@media (min-width: 500px) {
+  #grid_0_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .mig_tekst {
+    grid-template-rows: 2fr;
+    align-self: center;
+    max-width: 65ch;
+    padding-left: 25%;
+    font-size: larger;
+  }
+  .tekst_1 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    align-self: center;
+    display: flex;
+  }
+  #grid_1_1_1 {
+    padding-top: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .billede_1 {
+    padding: 27%;
+  }
+  .billede_2 {
+    padding: 20%;
+  }
+  .billede_3 {
+    padding: 25%;
+  }
+  h2 {
+    align-self: center;
+    align-content: center;
+  }
+
+  .grid_01_01 {
+    margin-top: 50px;
+    padding-top: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .box {
+    border-left: #1c0404;
+    border-width: 10px;
+    padding-left: 100px;
+    text-align: center;
+  }
+  .box2 {
+    text-align: center;
+    padding-right: 50px;
+  }
+  .box2 li {
+    list-style: none;
+    padding-top: 15px;
+  }
+  .box li {
+    padding-top: 15px;
+    list-style: none;
+  }
+}

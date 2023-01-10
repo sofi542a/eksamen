@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main_menu {
+  display: flex; /* 1 */
+  justify-content: space-between; /* 2 */
+  padding: 1rem 2rem; /* 3 */
+}
+
+.main_menu ul {
+  display: flex; /* 5 */
+  list-style: none; /* 6 */
+}
+
+.main_menu li {
+  padding-left: 22%; /* 7 */
+}
+body {
+  /* Billedet */
+  background-image: url(/photos/baggrundt.webp);
+  /* Fuld højde */
+  height: 100%;
+  /* Parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.infoweb {
+  padding: 20px;
+}
+
+.ux {
+  padding: 20px;
+}
+.animation {
+  padding: 20px;
+}
+.indhold {
+  padding: 20px;
+}
+.lafresca {
+  margin-bottom: 40px;
+}
+@media (min-width: 500px) {
+  #grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #web1 {
+    padding-top: 10%;
+    padding-bottom: 10px;
+  }
+  .infoweb {
+    max-width: 65ch;
+  }
+  #ux1 {
+    padding-top: 10%;
+    padding-bottom: 10px;
+  }
+  .uxinfo {
+    max-width: 65ch;
+  }
+  .ux {
+    margin-top: 0px;
+    margin-left: 20px;
+    padding-left: 0px;
+  }
+  .uxphoto {
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+  .webphoto {
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+  .animation {
+    padding-top: 10%;
+    padding-bottom: 10px;
+  }
+  .spil_h {
+    max-width: 65ch;
+    margin-bottom: 10px;
+  }
+  .spil_tekst {
+    margin-top: 0px;
+
+    padding-left: 0px;
+  }
+  .spil {
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+  .indhold {
+    padding-top: 10%;
+    padding-bottom: 10px;
+  }
+  .indhold_h {
+    max-width: 65ch;
+    margin-bottom: 10px;
+  }
+  .indhold_tekst {
+    margin-top: 0px;
+
+    padding-left: 0px;
+  }
+  .lafresca {
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+  }
+  .viden {
+    margin: 20px;
+  }
+}
